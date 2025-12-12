@@ -18,7 +18,7 @@
 
 **[SensorFlow-Model](https://github.com/Zyrexam/SensorFlow-Model)** - Federated learning system using Flower framework. Implemented FedMeet achieving 87.97% accuracy, outperforming FedPer, FedProx, and ClusterFL on multi-sensor IMU data for meeting activity recognition.
 
-**[Spring Email-Scheduler](https://github.com/Zyrexam/Spring-Email-Scheduler)** - Timezone-aware email scheduling system built with Spring Boot and Quartz Scheduler. Handles 50+ concurrent jobs with high fault tolerance and minimal execution delay.
+**[Spring Email-Scheduler](https://github.com/Zyrexam/Spring-EmailScheduler.git)** - Timezone-aware email scheduling system built with Spring Boot and Quartz Scheduler. Handles 50+ concurrent jobs with high fault tolerance and minimal execution delay.
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Zyrexam&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
