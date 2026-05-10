@@ -1,4 +1,4 @@
-```md
+
 <div align="center">
 
 # Mohit Kumar
@@ -15,7 +15,7 @@
 
 ## 📌 About Me
 
-```yaml
+``yaml
 Focus:
   - Backend Development
   - Distributed Systems
@@ -26,7 +26,7 @@ Currently Learning:
   - System Design
   - Cloud Architecture
   - Observability
-```
+``
 
 ---
 
