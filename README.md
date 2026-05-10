@@ -60,12 +60,13 @@ Currently Learning:
 <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Zyrexam&theme=tokyo-night&hide_border=true&bg_color=0D1117" />
 
 </div>
-
 ---
 
 <div align="center">
 
-<img src="https://visitcount.itsvg.in/api?id=Zyrexam&icon=6&color=6" alt="Visitor Count" />
+<img src="https://komarev.com/ghpvc/?username=Zyrexam&label=Profile%20Views&color=0e75b6&style=flat" alt="Zyrexam" />
+
+</div>
 
 </div>
 ```
