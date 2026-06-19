@@ -1,28 +1,48 @@
-# Hey there! 👋
-I'm Mohit, a backend engineer based in India.
+<h1 align="center">Mohit Kumar</h1>
+<h3 align="center">Backend Engineer · Distributed Systems</h3>
 
-I build scalable systems and distributed applications.
+<p align="center">
+  CSE, IIT Jodhpur '26 · Building scalable systems and APIs that hold up under load
+</p>
 
-If there's a system design problem, chances are I'll obsess over it until it's solved.
-
-My main tech stack is Python, FastAPI, Spring Boot, and PostgreSQL. My favorite tools are Docker, Redis, and Postman.
-
-I've got a bunch of pinned projects, but my favorites are the Webhook Delivery System and Payment Idempotency Proxy.
-
-I've built 30+ public repos, but privately... it's probably more than 50 at this point.
-
-Currently researching at IIT Jodhpur, building distributed learning systems.
+<p align="center">
+  <a href="https://linkedin.com/in/mohit-kumar-sp">LinkedIn</a> ·
+  <a href="https://github.com/Zyrexam">GitHub</a>
+</p>
 
 ---
 
-## Fun Facts:
-- I qualified JEE Advanced (top 2.5% of 1.5M candidates)
-- I don't like coffee (tea person ☕)
-- Currently learning Kubernetes and distributed systems
-- Hobbies: coding, tech meetups, building side projects
+### About
+
+I design and build distributed backend systems — currently researching distributed learning systems at IIT Jodhpur. 30+ public repos, 50+ private. JEE Advanced qualifier (top 2.5% of 1.5M candidates).
+
+### Featured Projects
+
+| Project | Description |
+|---|---|
+| **[Webhook Delivery System](#)** | Reliable webhook delivery with retries, backoff, and dead-letter handling |
+| **[Payment Idempotency Proxy](#)** | Prevents duplicate payment processing in distributed transaction flows |
+
+### Stack
+
+**Languages & Frameworks:** Python · FastAPI · Spring Boot · Java
+**Data:** PostgreSQL · Redis
+**Infra:** Docker · AWS · GCP
+**Tools:** Postman
+
+### Currently
+
+- Researching distributed learning systems at IIT Jodhpur
+- Learning Kubernetes and distributed systems internals
+
+### Fun Facts
+
+- Qualified JEE Advanced (top 2.5% of 1.5M candidates)
+- Tea person, not coffee
+- Hobbies: tech meetups, building side projects
 
 ---
 
-**Mohit Kumar**
-IIT Jodhpur CSE '26
-
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Zyrexam&show_icons=true&theme=default&hide_border=true" alt="GitHub stats" />
+</p>
