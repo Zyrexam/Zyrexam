@@ -1,22 +1,16 @@
-# Hey there! 👋
-I'm Mohit, a backend engineer based in India.
+### Hi there 👋 I'm Mohit Kumar (IIT Jodhpur Alumni)
 
-I build scalable systems and distributed applications.
+![Banner](https://avatars.githubusercontent.com/u/157114960?v=4)
 
-If there's a system design problem, chances are I'll obsess over it until it's solved.
+**Full-Stack Developer** from Rajasthan, India 🇮🇳
 
-Currently researching distributed learning systems at IIT Jodhpur.  
-30+ public repos, 50+ private.
+- 🔭 Working on **Crewber** - Real-time crew management platform
+-  Passionate about **Java, Typescipt, System Design**
+- 🌱 Currently learning **Distributed Systems & AI/ML**
+- 📫 Reach me: [mohitkumar-six.vercel.app](https://mohitkumar-six.vercel.app/)
 
-**Stack:** Python · FastAPI · Spring Boot · PostgreSQL · Redis · Docker · AWS
+### 🛠 Tech Stack
+![TypeScript](badge-url) ![Python](badge-url) ![Java](badge-url) ![C++](badge-url)
 
-**Featured:** Webhook Delivery System · Payment Idempotency Proxy · Well-Log Analyzer
-
-**Publications:** FedMeet (ACM) · MeetLog
-
----
-
-### 📌 Fun Facts
-- Qualified JEE Advanced (top 2.5% of 1.5M candidates)
-- Tea person, not coffee 🍵
-- Hobbies: coding, tech meetups, building things
+### 📊 GitHub Stats
+![Stats](https://github-readme-stats.vercel.app/api?username=Zyrexam)
