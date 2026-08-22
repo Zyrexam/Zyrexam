@@ -13,7 +13,7 @@ Currently exploring distributed learning systems.
 
 ---
 
-### 📌 Fun Facts
+### * Fun Facts
 - Designed my own Agentic Harness (Optimum)
 - Qualified JEE Advanced
 - Tea person, not coffee 🍵
