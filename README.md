@@ -1,16 +1,20 @@
-### Hi there 👋 I'm Mohit Kumar (IIT Jodhpur Alumni)
+# Hey there! 👋 I'm Mohit Kumar
 
-**Full-Stack Developer** from Rajasthan, India 🇮🇳
+**Backend & Full-Stack Engineer** | **IIT Jodhpur Alumni** 🇮🇳
 
-- 🔭 Working on **Crewber** - Real-time crew management platform
--  Passionate about **Java, Typescipt, System Design**
-- 🌱 Currently learning **Distributed Systems & AI/ML**
-- 📫 Reach me: [mohitkumar-six.vercel.app](https://mohitkumar-six.vercel.app/)
+I build scalable systems and distributed applications. If there's a complex system design problem, chances are I'll obsess over it until it's elegantly solved. 
 
-### 🛠 Tech Stack
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+Currently researching distributed learning systems at IIT Jodhpur, with 30+ public and 50+ private repositories under my belt.
 
-### 📊 GitHub Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=Zyrexam)
+---
+
+- 📫 Reach me via my portfolio: [mohitkumar-six.vercel.app](https://mohitkumar-six.vercel.app/)
+
+---
+
+### 🛠️ Tech Stack & Expertise
+<p align="left">
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"
