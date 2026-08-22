@@ -17,10 +17,4 @@ Currently exploring distributed learning systems.
 - Designed my own Agentic Harness (Optimum)
 - Qualified JEE Advanced
 - Tea person, not coffee 🍵
-- Hobbies: coding, building things
-
-- ### 📌 Fun Facts
-- ![Achievement](https://img.shields.io/badge/🏆_Highlight-Designed_my_own_Harness_(Optimum)-brightgreen?style=for-the-badge)
-- Qualified JEE Advanced
-- Tea person, not coffee 🍵
-- Hobbies: coding, building things
+- Hobbies: building things
