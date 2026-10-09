@@ -62,16 +62,6 @@ Peer-reviewed work with official publisher links:
 - **AASC** — published at ScienceDirect. Read it here: [sciencedirect.com — S0304397526003208](https://www.sciencedirect.com/science/article/abs/pii/S0304397526003208)
 - **Blockchain × LLM** — accepted, publisher link coming soon from the conference. I'll add the official URL here once it is live.
 
----
-
-<a><h2>What I've Been Doing Recently ⚙️</h2></a>
-
-- **High-throughput pipelines:** Working with Kafka and FFmpeg in VideoScale — producer/consumer tuning, backpressure handling, and keeping processing latency predictable.
-- **Edge & caching:** Prototyping CDN behavior in EdgeCraft-CDN — cache eviction, TTL boundaries, and measuring what actually reduces tail latency.
-- **Backend correctness:** Rate limiting, retries, and idempotency — the unglamorous details that decide whether a system survives real traffic.
-- **Distributed learning:** Exploring distributed learning systems — how training and inference behave when state, networking, and failures interact.
-
----
 
 ## GitHub Activity
 
@@ -91,9 +81,9 @@ Peer-reviewed work with official publisher links:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zyrexam/Zyrexam/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zyrexam/Zyrexam/output/github-contribution-grid-snake.svg" />
-    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Zyrexam/Zyrexam/output/github-contribution-grid-snake.svg" loading="lazy" decoding="async" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Zyrexam/Zyrexam@output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Zyrexam/Zyrexam@output/github-contribution-grid-snake.svg" />
+    <img width="560" alt="Contribution snake animation" src="https://cdn.jsdelivr.net/gh/Zyrexam/Zyrexam@output/github-contribution-grid-snake.svg" loading="lazy" decoding="async" />
   </picture>
 </p>
 
