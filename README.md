@@ -74,7 +74,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Zyrexam/Zyrexam@output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Zyrexam/Zyrexam@output/github-contribution-grid-snake.svg" />
-    <img width="560" alt="Contribution snake animation" src="https://cdn.jsdelivr.net/gh/Zyrexam/Zyrexam@output/github-contribution-grid-snake.svg" loading="lazy" decoding="async" />
+    <img width="900" alt="Contribution snake animation" src="https://cdn.jsdelivr.net/gh/Zyrexam/Zyrexam@output/github-contribution-grid-snake.svg" loading="lazy" decoding="async" />
   </picture>
 </p>
 
