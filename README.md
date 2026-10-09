@@ -54,15 +54,6 @@
 
 ---
 
-## Publications
-
-Peer-reviewed work with official publisher links:
-
-- **FedMeet** — published at ACM. Read it here: [doi.org/10.1145/3772290.3772295](https://dl.acm.org/doi/10.1145/3772290.3772295)
-- **AASC** — published at ScienceDirect. Read it here: [sciencedirect.com — S0304397526003208](https://www.sciencedirect.com/science/article/abs/pii/S0304397526003208)
-- **Blockchain × LLM** — accepted, publisher link coming soon from the conference. I'll add the official URL here once it is live.
-
-
 ## GitHub Activity
 
 <p align="center">🏆 <strong>Competitive Programming &amp; DSA</strong></p>
@@ -92,9 +83,17 @@ Peer-reviewed work with official publisher links:
 </p>
 
 ---
+## Publications
+
+Peer-reviewed work with official publisher links:
+
+- **FedMeet** — published at ACM. Read it here: [doi.org/10.1145/3772290.3772295](https://dl.acm.org/doi/10.1145/3772290.3772295)
+- **AASC** — published at ScienceDirect. Read it here: [sciencedirect.com — S0304397526003208](https://www.sciencedirect.com/science/article/abs/pii/S0304397526003208)
+- **Blockchain × LLM** — accepted, publisher link coming soon from the conference. I'll add the official URL here once it is live.
+
+---
 
 ## Beyond the Code
-
 - 🎓 **Cleared JEE Advanced** — graduated in Computer Science from IIT Jodhpur.
 - 📄 **Published researcher** — FedMeet (ACM), AASC (ScienceDirect), plus Blockchain × LLM on the way.
 - 🍵 **Tea over coffee, always** — best system designs happen over chai.
