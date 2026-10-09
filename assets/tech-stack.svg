@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="132" viewBox="0 0 900 132" role="img" aria-labelledby="title desc">
+  <title id="title">Mohit Kumar technology stack</title>
+  <desc id="desc">Animated tiles for Java, Python, TypeScript, PostgreSQL, Redis, AWS, Docker, React, and Kafka.</desc>
+  <defs>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0D1117" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <style>
+    .tile { fill:#FFFFFF; stroke:#D8DEE4; stroke-width:1; }
+    .mono { font:800 26px Verdana, Geneva, DejaVu Sans, sans-serif; text-anchor:middle; letter-spacing:.5px; }
+    .label { fill:#57606A; font:700 11px Verdana, Geneva, DejaVu Sans, sans-serif; text-anchor:middle; letter-spacing:.2px; }
+    .ink { fill:#231F20; }
+    .rise,.tilt,.thump { transform-box:fill-box; transform-origin:center; }
+    .rise { animation:rise 3.2s ease-in-out infinite; }
+    .tilt { animation:tilt 4s ease-in-out infinite; }
+    .thump { animation:thump 3.8s ease-in-out infinite; }
+    .d1 { animation-delay:-.5s; } .d2 { animation-delay:-1.2s; } .d3 { animation-delay:-1.9s; }
+    .d4 { animation-delay:-2.6s; } .d5 { animation-delay:-3.1s; }
+    @keyframes rise { 0%,100% { transform:translateY(3px); } 50% { transform:translateY(-4px); } }
+    @keyframes tilt { 0%,100% { transform:rotate(-4deg); } 50% { transform:rotate(4deg); } }
+    @keyframes thump { 0%,100% { transform:scale(.95); } 50% { transform:scale(1.06); } }
+    @media (prefers-color-scheme:dark) {
+      .tile { fill:#0D1117; stroke:#30363D; }
+      .label { fill:#9BA3AB; }
+      .ink { fill:#EDEDED; }
+    }
+    @media (prefers-reduced-motion:reduce) {
+      .rise,.tilt,.thump { animation:none; }
+    }
+  </style>
+
+  <g transform="translate(0)">
+    <rect class="tile" x="8" y="8" width="84" height="84" rx="22" filter="url(#soft)"/>
+    <g class="rise d1"><text class="mono" x="50" y="63" fill="#ED8B00">Jv</text></g>
+    <text class="label" x="50" y="118">Java</text>
+  </g>
+
+  <g transform="translate(100)">
+    <rect class="tile" x="8" y="8" width="84" height="84" rx="22" filter="url(#soft)"/>
+    <g class="tilt d2"><text class="mono" x="50" y="63" fill="#3776AB">Py</text></g>
+    <text class="label" x="50" y="118">Python</text>
+  </g>
+
+  <g transform="translate(200)">
+    <rect class="tile" x="8" y="8" width="84" height="84" rx="22" filter="url(#soft)"/>
+    <g class="thump d3"><text class="mono" x="50" y="63" fill="#3178C6">TS</text></g>
+    <text class="label" x="50" y="118">TypeScript</text>
+  </g>
+
+  <g transform="translate(300)">
+    <rect class="tile" x="8" y="8" width="84" height="84" rx="22" filter="url(#soft)"/>
+    <g class="rise d4"><text class="mono" x="50" y="63" fill="#4169E1">PG</text></g>
+    <text class="label" x="50" y="118">PostgreSQL</text>
+  </g>
+
+  <g transform="translate(400)">
+    <rect class="tile" x="8" y="8" width="84" height="84" rx="22" filter="url(#soft)"/>
+    <g class="tilt d5"><text class="mono" x="50" y="63" fill="#DC382D">Re</text></g>
+    <text class="label" x="50" y="118">Redis</text>
+  </g>
+
+  <g transform="translate(500)">
+    <rect class="tile" x="8" y="8" width="84" height="84" rx="22" filter="url(#soft)"/>
+    <g class="thump d1"><text class="mono" x="50" y="63" fill="#FF9900">Aw</text></g>
+    <text class="label" x="50" y="118">AWS</text>
+  </g>
+
+  <g transform="translate(600)">
+    <rect class="tile" x="8" y="8" width="84" height="84" rx="22" filter="url(#soft)"/>
+    <g class="rise d2"><text class="mono" x="50" y="63" fill="#2496ED">Dk</text></g>
+    <text class="label" x="50" y="118">Docker</text>
+  </g>
+
+  <g transform="translate(700)">
+    <rect class="tile" x="8" y="8" width="84" height="84" rx="22" filter="url(#soft)"/>
+    <g class="tilt d3"><text class="mono" x="50" y="63" fill="#149ECA">Rx</text></g>
+    <text class="label" x="50" y="118">React</text>
+  </g>
+
+  <g transform="translate(800)">
+    <rect class="tile" x="8" y="8" width="84" height="84" rx="22" filter="url(#soft)"/>
+    <g class="thump d4"><text class="mono ink" x="50" y="63">Kf</text></g>
+    <text class="label" x="50" y="118">Kafka</text>
+  </g>
+</svg>

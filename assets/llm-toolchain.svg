@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="818" height="32" role="img" aria-label="LLM Toolchain: Codex CLI, Claude Code, Pi Coding Agent, Agent Skills">
+  <title>Codex CLI · Claude Code · Pi Coding Agent · Agent Skills</title>
+  <defs>
+    <clipPath id="za"><rect x="0" width="200" height="32" rx="16"/></clipPath>
+    <clipPath id="zb"><rect x="206" width="200" height="32" rx="16"/></clipPath>
+    <clipPath id="zc"><rect x="412" width="200" height="32" rx="16"/></clipPath>
+    <clipPath id="zd"><rect x="618" width="200" height="32" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#za)">
+    <rect width="84" height="32" fill="#2B2D30"/>
+    <rect x="84" width="116" height="32" fill="#FFFFFF"/>
+  </g>
+  <rect x="1" y="1" width="198" height="30" rx="15" fill="none" stroke="#2B2D30" stroke-width="1.5"/>
+  <g clip-path="url(#zb)">
+    <rect x="206" width="84" height="32" fill="#2B2D30"/>
+    <rect x="290" width="116" height="32" fill="#D97757"/>
+  </g>
+  <g clip-path="url(#zc)">
+    <rect x="412" width="84" height="32" fill="#2B2D30"/>
+    <rect x="496" width="116" height="32" fill="#0E9F6E"/>
+  </g>
+  <g clip-path="url(#zd)">
+    <rect x="618" width="84" height="32" fill="#2B2D30"/>
+    <rect x="702" width="116" height="32" fill="#7C3AED"/>
+  </g>
+  <g fill="#fff" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="10" text-anchor="middle" text-rendering="geometricPrecision">
+    <text x="42" y="20" letter-spacing=".4">CODEX</text>
+    <text x="248" y="20" letter-spacing=".4">CLAUDE</text>
+    <text x="454" y="20" letter-spacing=".4">PI</text>
+    <text x="660" y="20" letter-spacing=".4">AGENTS</text>
+  </g>
+  <g font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="10" font-weight="700" text-anchor="middle" text-rendering="geometricPrecision">
+    <text x="142" y="20" fill="#111">Codex CLI</text>
+    <text x="348" y="20" fill="#fff">Claude Code</text>
+    <text x="554" y="20" fill="#fff">Pi Coding Agent</text>
+    <text x="760" y="20" fill="#fff">Agent Skills</text>
+  </g>
+</svg>
