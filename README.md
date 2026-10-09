@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/Zyrexam">
-    <img src="https://readme-typing-svg.demolab.com?font=Victor+Mono&weight=700&size=22&duration=3000&pause=1500&color=A855F7&center=true&vCenter=true&width=1200&lines=Hey%2C+I+am+Mohit+Kumar+%7C+Full-Stack+Developer+%7C+Distributed+Systems+%26+Scalable+Backends;I+build+backends+that+stay+up+when+traffic+spikes.;Java+%C2%B7+Python+%C2%B7+TypeScript+%C2%B7+Postgres+%C2%B7+Redis+%C2%B7+Kafka+%C2%B7+AWS" alt="Typing introduction" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1500&color=A855F7&center=true&vCenter=true&width=1200&lines=Hey%2C+I+am+Mohit+Kumar+%7C+Full-Stack+Developer+%7C+Distributed+Systems+%26+Scalable+Backends;I+build+backends+that+stay+up+when+traffic+spikes.;Java+%C2%B7+Python+%C2%B7+TypeScript+%C2%B7+Postgres+%C2%B7+Redis+%C2%B7+Kafka+%C2%B7+AWS" alt="Typing introduction" />
   </a>
 </p>
 
