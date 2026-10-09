@@ -31,7 +31,7 @@
 ## Tech Stack
 
 <p align="center">
-  <img width="900" src="./assets/tech-stack.svg" alt="Animated technology stack: Java, Python, TypeScript, PostgreSQL, Redis, AWS, Docker, React, and Kafka" />
+  <img width="900" src="https://raw.githubusercontent.com/Zyrexam/Zyrexam/main/assets/tech-stack.svg" alt="Animated technology stack: Java, Python, TypeScript, PostgreSQL, Redis, AWS, Docker, React, and Kafka" />
 </p>
 
 <p align="center">
