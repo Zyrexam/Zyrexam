@@ -75,7 +75,11 @@
 </p>
 
 <p align="center">
-  <img width="560" src="./assets/streak.svg" alt="Total contributions, current streak, and longest streak" loading="lazy" decoding="async" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/streak-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/streak-light.svg" />
+    <img width="560" alt="Total contributions, current streak, and longest streak" src="./assets/streak-light.svg" loading="lazy" decoding="async" />
+  </picture>
 </p>
 
 <p align="center">

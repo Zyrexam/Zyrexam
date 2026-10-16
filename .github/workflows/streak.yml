@@ -17,41 +17,46 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - name: Fetch live streak numbers
+      - name: Fetch streak cards
         env:
-          URL: "https://streak-stats.demolab.com?user=Zyrexam&theme=transparent&hide_border=true"
+          LIGHT_URL: "https://streak-stats.demolab.com/?user=Zyrexam&background=FFFFFF&border=E6E9EF&stroke=E6E9EF&ring=0891B2&fire=F59E0B&currStreakNum=0D1117&sideNums=0D1117&currStreakLabel=57606A&sideLabels=57606A&dates=8B949E&border_radius=22&card_width=560"
+          DARK_URL: "https://streak-stats.demolab.com/?user=Zyrexam&background=0D1117&border=21262D&stroke=21262D&ring=22D3EE&fire=F59E0B&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=9BA3AB&sideLabels=9BA3AB&dates=6E7681&border_radius=22&card_width=560"
         run: |
           set -euo pipefail
-          for attempt in 1 2 3 4 5 6; do
-            echo "[$attempt/6] Fetching streak numbers"
-            if curl -sfL --max-time 30 "$URL" > streak.raw 2>/dev/null; then
-              TOTAL=$(grep -oP '(?s)<g transform[^>]*>\s*<text[^>]*>\s*\K[\d,]+(?=\s*</text>)' streak.raw | head -n 1 || true)
-              CURRENT=$(grep -oP 'Current Streak</text>.*?<g transform[^>]*>\s*<text[^>]*>\s*\K[^<]{1,30}' streak.raw | head -n 1 || true)
-              LONGEST=$(grep -oP 'Longest Streak</text>.*?<g transform[^>]*>\s*<text[^>]*>\s*\K[^<]{1,30}' streak.raw | head -n 1 || true)
-              if [ -n "${TOTAL:-}" ]; then
-                echo "TOTAL=$TOTAL" >> "$GITHUB_ENV"
-                echo "CURRENT=${CURRENT:-}" >> "$GITHUB_ENV"
-                echo "LONGEST=${LONGEST:-}" >> "$GITHUB_ENV"
-                echo "Got TOTAL=$TOTAL CURRENT=$CURRENT LONGEST=$LONGEST"
-                exit 0
-              fi
-            fi
-            sleep 10
-          done
-          echo "Unable to fetch streak numbers after 6 attempts"
-          exit 1
 
-      - name: Restyle cards into repo theme
-        run: |
-          python .github/scripts/build_streak.py
+          fetch() {
+            url="$1"
+            out="$2"
+            for attempt in 1 2 3 4 5 6; do
+              echo "[$attempt/6] Fetching $out"
+              if curl -sfL --max-time 30 "$url" > "$out.tmp" 2>/dev/null; then
+                sed -n '/<svg/,$p' "$out.tmp" > "$out.new"
+                if head -1 "$out.new" | grep -q '^<svg' \
+                  && grep -q '</svg>' "$out.new" \
+                  && grep -Eq 'Current Streak|Total Contributions' "$out.new"; then
+                  mv "$out.new" "$out"
+                  rm -f "$out.tmp"
+                  echo "Wrote $out ($(wc -c < "$out") bytes)"
+                  return 0
+                fi
+              fi
+              rm -f "$out.tmp" "$out.new"
+              sleep 10
+            done
+            echo "Unable to fetch a valid card for $out after 6 attempts"
+            return 1
+          }
+
+          fetch "$LIGHT_URL" assets/streak-light.svg
+          fetch "$DARK_URL" assets/streak-dark.svg
 
       - name: Commit updated cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/streak.svg
+          git add assets/streak-light.svg assets/streak-dark.svg
           if git diff --staged --quiet; then
             echo "No changes"
             exit 0
