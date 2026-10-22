@@ -2,7 +2,7 @@ name: Refresh streak cards
 
 on:
   schedule:
-    - cron: "15 16 * * *"
+    - cron: "15 16 1-28/3 * *"
   workflow_dispatch:
 
 permissions:
