@@ -220,7 +220,7 @@ def info_lines(s):
     return [
         [(f"{USER.lower()}@github ", "h"), ("─" * (W - len(USER) - 8), "d")],
         [],
-        kv("OS", "Win11 + WSL"),
+        kv("OS", "Windows 11 + WSL"),
         kv("Uptime", f"{y} years, {m} months, {d} days"),
         kv("College", "IIT Jodhpur · CS"),
         kv("Kernel", "Distributed Systems · Backends"),

@@ -28,7 +28,7 @@
 <text x="36" y="442" fill="#8b949e" xml:space="preserve">=%%%%@  %#**#+::::-+++***######%  +%###</text>
 <text x="36" y="457" fill="#8b949e" xml:space="preserve">-%#%%@  %**#*=-.::-+++***######%= *%###</text>
 <text x="390" y="45" xml:space="preserve"><tspan fill="#58a6ff">zyrexam@github </tspan><tspan fill="#484f58">─────────────────────────────────────────</tspan></text>
-<text x="390" y="87" xml:space="preserve"><tspan fill="#ffa657">OS: </tspan><tspan fill="#484f58">........................................ </tspan><tspan fill="#c9d1d9">Win11 + WSL</tspan></text>
+<text x="390" y="87" xml:space="preserve"><tspan fill="#ffa657">OS: </tspan><tspan fill="#484f58">................................... </tspan><tspan fill="#c9d1d9">Windows 11 + WSL</tspan></text>
 <text x="390" y="108" xml:space="preserve"><tspan fill="#ffa657">Uptime: </tspan><tspan fill="#484f58">..................... </tspan><tspan fill="#c9d1d9">2 years, 10 months, 7 days</tspan></text>
 <text x="390" y="129" xml:space="preserve"><tspan fill="#ffa657">College: </tspan><tspan fill="#484f58">.............................. </tspan><tspan fill="#c9d1d9">IIT Jodhpur · CS</tspan></text>
 <text x="390" y="150" xml:space="preserve"><tspan fill="#ffa657">Kernel: </tspan><tspan fill="#484f58">................. </tspan><tspan fill="#c9d1d9">Distributed Systems · Backends</tspan></text>
@@ -42,6 +42,6 @@
 <text x="390" y="360" xml:space="preserve"><tspan fill="#ffa657">LinkedIn: </tspan><tspan fill="#484f58">............................ </tspan><tspan fill="#c9d1d9">in/mohit-kumar-sp</tspan></text>
 <text x="390" y="402" xml:space="preserve"><tspan fill="#58a6ff">─ GitHub Stats </tspan><tspan fill="#484f58">─────────────────────────────────────────</tspan></text>
 <text x="390" y="423" xml:space="preserve"><tspan fill="#ffa657">Repos: </tspan><tspan fill="#484f58">... </tspan><tspan fill="#c9d1d9">32 {Contributed: 3}</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Stars: </tspan><tspan fill="#484f58">.............. </tspan><tspan fill="#c9d1d9">0</tspan></text>
-<text x="390" y="444" xml:space="preserve"><tspan fill="#ffa657">Commits: </tspan><tspan fill="#484f58">................. </tspan><tspan fill="#c9d1d9">274</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Followers: </tspan><tspan fill="#484f58">.......... </tspan><tspan fill="#c9d1d9">2</tspan></text>
-<text x="390" y="465" xml:space="preserve"><tspan fill="#ffa657">Lines of Code: </tspan><tspan fill="#c9d1d9">829,414</tspan><tspan fill="#484f58"> ( </tspan><tspan fill="#3fb950">1,634,201++</tspan><tspan fill="#484f58">, </tspan><tspan fill="#f85149">804,787--</tspan><tspan fill="#484f58"> )</tspan></text>
+<text x="390" y="444" xml:space="preserve"><tspan fill="#ffa657">Commits: </tspan><tspan fill="#484f58">................. </tspan><tspan fill="#c9d1d9">278</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Followers: </tspan><tspan fill="#484f58">.......... </tspan><tspan fill="#c9d1d9">2</tspan></text>
+<text x="390" y="465" xml:space="preserve"><tspan fill="#ffa657">Lines of Code: </tspan><tspan fill="#c9d1d9">829,163</tspan><tspan fill="#484f58"> ( </tspan><tspan fill="#3fb950">1,597,188++</tspan><tspan fill="#484f58">, </tspan><tspan fill="#f85149">768,025--</tspan><tspan fill="#484f58"> )</tspan></text>
 </svg>
